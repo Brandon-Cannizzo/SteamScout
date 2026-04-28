@@ -24,6 +24,7 @@ if name_input:
     # This block only runs after user types something and hits Enter
     # Example Usage
     results = get_results(name_input)
+    st.image("https://steamstatic.com{1245620}/header.jpg")
     st.write(results)
 
 
